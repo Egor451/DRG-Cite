@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.promo {
+  background: url(/images/Bg.jpg) center no-repeat;
+  height: 840px;
+  width: 1855px;
+}
+
+.logo_text {
+  display: flex;
+  padding-top: 200px;
+  margin-bottom: 30px;
+  justify-content: center;
+  color: #f9bf3b;
+  text-align: justify;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px; /* 100% */
+  text-transform: uppercase;
+}
+
+.Bg_icon {
+  display: block;
+  top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  height: 200px;
+  position: relative;
+}
+
+.promo_text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(169, 238, 199);
+  background: rgb(33, 33, 33);
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  text-align: justify;
+  font-size: 26px;
+  line-height: 28px; /* 133.333% */
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.promo_button {
+  display: block;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 21px;
+  background: rgb(91, 247, 145);
+  margin-top: 200px;
+  height: 60px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/**/
+
+.clases {
+  background: rgb(33, 33, 33);
+  height: 800px;
+  padding-top: 25px;
+}
+
+.clases_h2 {
+  display: flex;
+  color: aliceblue;
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px; /* 100% */
+  text-transform: uppercase;
+}
+
+.clases_eng_gun_scout_drill {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clases_img_text {
+  width: 339px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.clases_text {
+  display: flex;
+  color: white;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 28px; /* 133.333% */
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+/**/
+.characteristic {
+  background: url(/images/DRG_Wallpaper_CrystalCaves.jpg);
+  height: 700px;
+  color: white;
+}
+
+.character_img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 100px;
+}
+
+.PC_charcters {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+.character {
+  display: flex;
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.min_characters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recom_characters {
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-between;
+}
+
+.character_button {
+  display: block;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 21px;
+  background: rgb(91, 247, 145);
+  margin-top: 200px;
+  height: 60px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/**/
+
+.screen {
+  background: rgb(33, 33, 33);
+  height: 400px;
+}
+
+.screen_gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.screen_h2 {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.screen_img {
+  height: 200px;
+  margin-left: 20px;
+}
+
+/**/
+
+.footer {
+  background: rgb(23, 23, 23);
+  height: 100px;
+}
+
+.footer_socnet {
+  display: flex;
+  justify-content: center;
+}
+
+.Contact {
+  background: lightgrey;
+  height: 50px;
+  border: solid rgb(253, 212, 133);
+  margin-left: 10px;
+}
+
+.Footer_Contact {
+  display: flex;
+  justify-content: center;
+}
